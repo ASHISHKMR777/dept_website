@@ -11,7 +11,8 @@ body {
        margin-right: 20%;
        padding: 10px 10px 10px 10px;
        font-family: sans-serif;
-}
+}
+
 .header h1 {
     font-style: italic;
     color: #CC0000;
@@ -180,10 +181,10 @@ p {
   </div>
 </div class="link">
  <div class="stu">
- <a href="student.htm"><img src="stu.jpg" alt="sudent login" style="width:400px, height=70px"></a>
+ <a href="login.htm"><img src="stu.jpg" alt="sudent login" style="width:400px, height=70px"></a>
  </div>
  <div class="fac">
- <a href="faculty.htm"><img src="fac.jpg" alt="faculty login" style="width:30px, height=70px"></a>
+ <a href="login.htm"><img src="fac.jpg" alt="faculty login" style="width:30px, height=70px"></a>
  </div>
 </div>
  
