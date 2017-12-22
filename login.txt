@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+body {
+       background-color: #00FFFF;
+       
+}
+ .header{
+         padding: 10px 10px 10px 10px;
+         font-style: italic;
+         text-align: center;
+         text-decoration: underline;
+}
+
+
+<script type="text/javascript">
+ function touch()
+{ var us = prompt("name!","enter");
+ if(us)
+   { alert("nice to met you great"+us.Welcome to Mechanical Engineering Society.);
+   }
+}
+function resizeimg()
+{ document.getElementById("iimg").style.height=(document.body.clientHeight-10)*0.9;
+}
+</script>
+<script>
+
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+</script>
+<style>
+
+.login{
+   display: center;}
+</style>
+
+</head>
+<body onload= "alert('HOLA!!!' Hope you are having your good time in Mechanical branch );" onresize="resizeimg();">
+<div style="margin-top:100px; text-align:center">
+    <img id="iimg" src="mech1.jpg"  alt="Java Script"  style="cursor:pointer" onclick="touch()" />
+    Name: <input type="text" id="b" name="username" />
+  </div>
+<div class="header">
+ <h1>Login</h1>
+<div class="login">
+
+<form action="#"
+method="post">
+<label for="username">Username:</label>
+<input type="text" name="username"
+required="required" /></title><br />
+<label for="password">Password:</label>
+<input type="password" name="password"
+required="required" />
+<input type="submit" value="Submit" />
+</form>
+</div>
+</body>
+</html>
