@@ -108,7 +108,7 @@ li.dropdown {
 }   
 p {
     font-family: verdana;
-    font-size: 20px;
+    font-size: 22px;
 }
 .topnav{
         text-align: center;       
